@@ -1,0 +1,229 @@
+.unorderedList {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+.listItem {
+  height: 140px;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5%;  
+}
+
+.listItem:hover {
+  background-color: white;
+  color: black;
+}
+
+.listItem img {
+  width: 47%;
+  object-fit: cover;
+  margin: 15px;
+}
+
+@media (max-width: 380px) {
+  .unorderedList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .listItem {
+    width: 100%;
+    height: 200px; /* Reducir la altura */
+    font-size: 20px; /* Reducir el tamaño de fuente */
+    padding: 0.6em; /* Reducir el padding */
+  }
+
+  .listItem img {
+    width: 60%; /* Reducir el tamaño de la imagen */
+  }
+}
+
+@media (max-width: 400px) {
+  .unorderedList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .listItem {
+    width: 100%;
+    height: 160px; /* Ajustar la altura */
+    font-size: 23px; /* Ajustar el tamaño de fuente */
+    padding: 0.7em; /* Ajustar el padding */
+  }
+
+  .listItem img {
+    width: 55%; /* Ajustar el tamaño de la imagen */
+  }
+}
+
+@media (max-width: 500px) {
+  .unorderedList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .listItem {
+    height: 170px; /* Ajustar la altura */
+    font-size: 28px; /* Ajustar el tamaño de fuente */
+    padding: 0.8em; /* Ajustar el padding */
+  }
+
+  .listItem img {
+    width: 50%; /* Ajustar el tamaño de la imagen */
+  }
+}
+
+@media (max-width: 600px) {
+  .unorderedList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .listItem {
+    height: 190px;
+    font-size: 30px;
+    padding: 0.9em;
+  }
+
+  .listItem img {
+    width: 45%;
+  }
+}
+
+/* Media query para 700x */
+@media (max-width: 700px) {
+  .unorderedList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .listItem {
+    height: 200px;
+    font-size: 32px;
+    padding: 1em;
+  }
+
+  .listItem img {
+    width: 40%;
+  }
+}
+
+.redesSociales{
+  font-size: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+
+.GitHub{
+  color: #fff;
+}
+
+.GitHub:hover{
+  color: #000;
+}
+
+.Instagram{
+  display: inline-block;
+  text-align: center;
+  border-radius: 40px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  color: white;
+}
+
+.Instagram:hover{
+  display: inline-block;
+  text-align: center;
+  border-radius: 400px;
+  vertical-align: middle;
+  background: #96196f;
+  background: radial-gradient(circle at 30% 107%, #c6be65 0%, #aea75d 5%, #f74737 45%,#ab1b7d 60%,#123293 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  color: white;
+}
+
+.Linkedin{
+  color: #167aab;
+}
+
+.Linkedin:hover{
+  color: #11587c;
+}
+
+.React{
+  color: #61dbfb;
+}
+
+.Redux{
+  color: #7749bd;
+}
+
+.Mongo{
+  color: #4faa41;
+}
+
+.Html{
+  color: #f1662a;
+}
+
+.Css{
+  color: #1572b6;
+}
+
+.Vite{
+  color: #7b86ff;
+}
+
+.Bootstrap{
+  color: #6d07f4;
+}
+
+.Express{
+  color: #828282;
+}
+
+.Javascript{
+  color: #f7df1e;
+}
+
+.Sequelize{
+  color: #57b2e8;
+}
+
+.Postgres{
+  color: #31648c;
+}
+
+.Facebook{
+  color: #1f7bf2;
+}
+
+.G{
+  color: #4889f4;
+}
+
+.o{
+  color: #eb493b;
+}
+
+.o2{
+  color: #fbbe0e;
+}
+
+.l{
+  color: #3cac5a;
+}
+
+.e{
+  color: #eb493b;
+}

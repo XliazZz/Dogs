@@ -1,0 +1,9 @@
+.custom-input {
+  height: 30px;
+  font-size: 15px;
+  width: 95%;
+}
+
+.style-error{
+  font-weight: 900;
+}

@@ -1,0 +1,17 @@
+.navbar-nav .nav-item:hover .nav-link {
+  position: relative;
+}
+
+.navbar-nav .nav-item:hover .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #000000 !important;
+}
